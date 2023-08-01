@@ -1,0 +1,302 @@
+body{
+    background: linear-gradient( to bottom, rgb(175, 90, 192),rgb(79, 79, 167));
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    font-family: sans-serif;
+    color: rgb(105, 104, 104);
+    letter-spacing: 0.02rem;
+}
+
+
+.heading{
+    color: rgb(59, 59, 59);
+   margin-top: 50px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 650px;
+    max-width: 1200px;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    border-radius: 20px;
+   overflow: hidden;
+}
+
+.line{
+    border-top: solid gray 1px;
+}
+
+.down-arrow{
+    margin-left: 160px;
+}
+
+.down-arrow1{
+    margin-left: 157px;
+}
+
+
+.how-many{
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+
+.down-arrow2{
+    margin-left: 123px;
+}
+
+.upload-size{
+    cursor: pointer;
+}
+
+.reset-password{
+    cursor: pointer;
+}
+
+.cancel-subscription{
+    cursor: pointer;
+}
+
+.additional-support{
+    cursor: pointer;
+}
+
+.one{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    color: rgb(155, 151, 151);
+    display: none;
+}
+
+.two{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    color: rgb(155, 151, 151);
+    display: none;
+}
+
+.three{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    color: rgb(155, 151, 151);
+    display: none;
+    
+}
+
+
+.four{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    color: rgb(155, 151, 151);
+    display: none;
+    
+}
+
+.five{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    color: rgb(155, 151, 151);
+    display: none;
+}
+
+
+
+
+
+.img-desktop{
+    width: 90%;
+    position: relative;
+    top:10%;
+    right: 100px;
+    
+}
+
+.first{
+    margin-top: 60px;
+}
+
+.first.one{
+    display: flex;
+}
+
+.wrapper-right{
+    width: 100%;
+    max-width: 400px;
+    padding: 60px 60px 60px 30px;
+    position: relative;
+    right: 60px;
+    
+    
+}
+
+.wrapper.left{
+    display: flex;
+    align-items: center;
+}
+
+.pattern{
+    width: 160%;
+    z-index: -1;
+    position: relative;
+    bottom: 800px;
+    right: 610px;
+}
+
+.box{
+width:10%;
+position: absolute;
+top:470px;
+left:250px;
+z-index: 2;
+}
+
+.down{
+    margin-left: 95px;
+}
+
+@media(max-width:480px){
+
+
+    body{
+        height: auto;
+        font-size: 0.9rem;
+    }
+    
+    .wrapper{
+        display: table-column;
+        height: 70%;
+        width: 100%;
+        max-width: 320px;
+        overflow: visible;
+        margin-top: 80px;
+        
+
+    }
+
+    .heading{
+        text-align: center;
+        font-size: 2.5rem;
+        
+    }
+
+
+    .img-desktop{
+        width: 65%;
+        position: relative;
+        left:60px;
+        bottom: 100px;
+    }
+
+    .box{
+        width: 100%;
+        max-width: 20%;
+        position: absolute;
+        top:150px;
+        left:90px;
+        z-index: 2;
+        }
+
+        
+        .wrapper-right{
+            width: 100%;
+            max-width: 300px;
+            padding: 10px;
+            position: relative;
+            bottom: 300px;
+            left: 10px;
+            
+        }
+
+
+        .pattern{
+            width: 60%;
+            z-index: -1;
+            position: relative;
+            bottom: 260px;
+            left: 70px;
+        }
+
+
+        .first{
+            margin-top: 40px;
+        }
+
+        .down-arrow{
+            margin-left: 75px;
+        }
+        
+        .down-arrow1{
+            margin-left: 70px;
+        }
+
+        .down-arrow2{
+            margin-left: 38px;
+        }
+
+        .down{
+            margin-left: 15px;
+        }
+
+        .line{
+            width: 95%;
+            border-top: solid gray 1px;
+        }
+
+        .one{
+            font-size: 0.8rem;
+            line-height: 1.3rem;
+            padding: 5px;
+            display: none;
+            
+        }
+        
+        .two{
+            font-size: 0.8rem;
+            line-height: 1.3rem;
+            padding: 5px;
+            display: none;
+        }
+        
+        .three{
+            font-size: 0.8rem;
+            line-height: 1.3rem;
+            padding: 5px;
+            display: none;
+        }
+        
+        .four{
+            font-size: 0.8rem;
+            line-height: 1.3rem;
+            padding: 5px;
+            display: none;
+        }
+        
+        .five{
+            font-size: 0.8rem;
+            line-height: 1.3rem;
+            padding: 5px;
+            display: none;
+        }
+
+        .how-many{
+            cursor: pointer;
+            margin-top: 5px;
+        }
+        
+
+       
+
+
+
+
+       
+        
+
+
+}
